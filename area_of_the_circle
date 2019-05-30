@@ -1,0 +1,9 @@
+# Write a programm to find the area,perimeter and diameter of the circle
+import math
+Radius = float(input("ENTER THE RADUIS OF THE CIRCLE:- "))
+Area = math.pi * Radius ** 2
+Diameter = Radius * 2
+Perimeter = 2 * math.pi * Radius
+print "THE AREA OF THE CIRCLE = ", Area
+print "THE DIAMETER OF THE CIRCLE = ", Diameter
+print "THE PERIMETER OF THE CIRCLE = ", Perimeter
